@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slide.css">
     <link rel="shortcut icon" href="img/logoADV.png" type="image/x-icon">
-    <script src="slide.js" defer></script>
+    <script src="script.js" defer></script>
     <title>Duarte & Santos Advocacia</title>
 
 </head>
@@ -43,12 +43,6 @@
             </div>
             <button id="entreEmContrato" type="button">Entre em contrato</button>
         </div>
-            <!-- <div class="social">
-                <button><i class="fa-brands fa-instagram"></i></button>
-                <button><i class="fa-brands fa-facebook-f"></i></button>
-                <button><i class="fa-brands fa-youtube"></i></button>
-            </div> -->
-        </div>
     </header>
     <div style="display: flexbox; background-color: white;">
         <ul style="display: flex; list-style: none;">
@@ -58,41 +52,19 @@
             <li>ESCRITÓRIO</li>
         </ul>
     </div>
-    <section class="slider">
-        <div class="slider-content">
 
-            <input type="radio" name="btn-radio" id="radio1">
-            <input type="radio" name="btn-radio" id="radio2">
-            <input type="radio" name="btn-radio" id="radio3">
-
-            <div class="slide-box primeiro">
-                <img class="img-desktop" src="img/ft01cabecalho.jpg" alt="slide 1">
-                <img class="img-mobile" src="img/slide-1-mob.jpg" alt="slide 1">
-            </div>
-
-            <div class="slide-box">
-                <img class="img-desktop" src="img/ft02cabecalho.jpg" alt="slide 3">
-                <img class="img-mobile" src="img/slide-2-mob.jpg" alt="slide 1">
-            </div>
-
-            <div class="slide-box">
-                <img class="img-desktop" src="img/slide-3.jpg" alt="slide 3">
-                <img class="img-mobile" src="img/slide-3-mob.jpg" alt="slide 3">
-            </div>
-
-            <div class="nav-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-            </div>
-
-            <div class="nav-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
+    <picture id="carrocel">
+        <div class="carrossel">
+            <div class="container">
+                <img src="img/ft01cabecalho.jpg" alt="" />
+                <img src="img/ft02cabecalho.jpg" alt="" />
+                <img src="img/ft03cabecalho.jpg" alt="" />
             </div>
         </div>
-    </section>
+    </picture>
+
+
+
 
     <div class="interface">
         <!-- section 1 que só tem apresentação -->
@@ -108,19 +80,21 @@
                 é, e
                 esse é o nosso diferencial.
             </p>
-            <div id="quemSomos">
+            <div style="display: flex;">
                 <h1>
                     Quem somos
                 </h1>
-                <div style="display: flex;">
+                <section>
                     <p>
                         O escritório de advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca oferecer serviços
                         jurídicos de excelência, pautados na integridade, competência e respeito. Nossos valores incluem
                         eficiência,
                         zelo, e um atendimento personalizado, visando à satisfação plena de nossos clientes.
                     </p>
+                </section>
+                <picture>
                     <img src="img/quemsomos.png" alt="">
-                </div>
+                </picture>
             </div>
             <!-- feed de noticias add -->
             <!-- areas do direito  -->
@@ -148,7 +122,7 @@
                                 uma
                                 assessoria jurídica sólida e focada em seus objetivos.
                             </p>
-                            
+
                         </section>
                         <picture>
                             <!-- buscar uma imagem para a section  -->
@@ -295,11 +269,10 @@
                     </div>
                 </article>
             </div>
-            <!-- uma linha de cada lado de uma logo aqui -->
-            <img src="" alt="">
-            <legend>
+            <img src="img/plat.png" alt="">
+            <p style="text-align: center;">
                 Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
-            </legend>
+            </p>
             <picture>
                 <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
                     <img id="maps" src="img/maps.png" alt="">
@@ -352,73 +325,73 @@
     </div>
 
     <footer>
-        <div style="display: flex;">
-            <img src="img/logoADV.png" alt="logoADV">
-            <p>
-                Duarte Santos Advocacia
-            </p>
-            <div id="colunaFooter" style="display: flex;">
-                <div id="equipe">
-                    <h1>
-                        Equipe
-                    </h1>
-                    <p>
-                        Dr. Francisco Duarte
-                    </p>
-                    <p>
-                        Dr. Guilherme Santos
-                    </p>
+        <div style="display: flexbox;">
+            <div>
+                <img src="img/logoADV.png" alt="logoADV">
+                <p>
+                    Duarte Santos Advocacia
+                </p>
+                <div id="colunaFooter" style="display: flex;">
+                    <div id="equipe">
+                        <h1>
+                            Equipe
+                        </h1>
+                        <p>
+                            Dr. Francisco Duarte
+                        </p>
+                        <p>
+                            Dr. Guilherme Santos
+                        </p>
+                    </div>
+                    <div id="escritório">
+                        <h1>
+                            Escritório
+                        </h1>
+                        <p>
+                            Sobre
+                        </p>
+                        <p>
+                            Localização
+                        </p>
+                        <p>
+                            Noticias
+                        </p>
+                    </div>
+                    <div id="areas">
+                        <h1>
+                            Áreas de atuação
+                        </h1>
+                        <p>
+                            Cível
+                        </p>
+                        <p>
+                            Criminal
+                        </p>
+                        <p>
+                            Previdenciário
+                        </p>
+                        <p>
+                            Família
+                        </p>
+                        <p>
+                            Consumidor
+                        </p>
+                        <p>
+                            Contratos
+                        </p>
+                    </div>
                 </div>
-                <div id="escritório">
-                    <h1>
-                        Escritório
-                    </h1>
-                    <p>
-                        Sobre
-                    </p>
-                    <p>
-                        Localização
-                    </p>
-                    <p>
-                        Noticias
-                    </p>
-                </div>
-                <div id="areas">
-                    <h1>
-                        Áreas de atuação
-                    </h1>
-                    <p>
-                        Cível
-                    </p>
-                    <p>
-                        Criminal
-                    </p>
-                    <p>
-                        Previdenciário
-                    </p>
-                    <p>
-                        Família
-                    </p>
-                    <p>
-                        Consumidor
-                    </p>
-                    <p>
-                        Contratos
-                    </p>
+                <div id="assine">
+                    <h2>
+                        Assine nosso newsleter
+                    </h2>
+                    <div style="display: flex;">
+                        <input type="text" name="" placeholder="Entrer Your email" id="">
+                        <button type="button">Subscribe</button>
+                    </div>
                 </div>
             </div>
-            <div id="assine">
-                <h2>
-                    Assine nosso newsleter
-                </h2>
-                <div style="display: flex;">
-                    <input type="text" name="" placeholder="Entrer Your email" id="">
-                    <button type="button">Subscribe</button>
-                </div>
-            </div>
-        </div>
-        <div id="subFooter">
-            <div style="display: flex;">
+            <div id="subFooter">
                 <div>
                     <p>
                         © 2023 Duarte Santos Advocacia Todos os direitos reservados
@@ -437,6 +410,7 @@
                         </picture>
                     </div>
                 </div>
+
             </div>
         </div>
     </footer>
