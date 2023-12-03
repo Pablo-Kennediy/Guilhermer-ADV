@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container1{ 
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    padding: 15px 4%;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: #262626;
+    color: #A6855D;
+}
+
+.logo{
+    width: 25%;
+}
+
+.logo img{
+    width: 200px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #c4c4c4;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg , #FF2500, #FF7100);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
+
+.menu nav a:hover{
+    color: #ffffff;
+}
+
+.social{
+    width: 25%;
+}
+
+.social button{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border: 0;
+    cursor: pointer;
+    background-image: linear-gradient(45deg , #FF2500, #FF7100);
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+
+.social button i{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.social button:hover{
+    transform: scale(0.9);
+}
+
+#menu-mobile{
+    background-color: #1111119f;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 77px;
+    right: 0;
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    z-index: 1000;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+#menu-mobile nav a{
+    display: block;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#menu-mobile nav a:hover{
+    background-color: #383838;
+}
+
+#btn-menu,
+#btn-menu-close{
+    color: #ffffff;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 1110px) {
+    .menu,
+    .social{
+        display: none;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    #btn-menu,
+    #menu-mobile{
+        display: block;
+    }
+
+    #menu-mobile.active{
+        height: calc(100vh - 77px);
+        visibility: visible;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    padding: auto;
+}
+
+div {
+    display: block;
+}
+
+ul {
+    max-width: 500px;
+    background-color: white;
+}
+
+li {
+    font-size: medium;
+    padding: 5px;
+}
+
+body#bem-vindo {
+    background-image: url("fdbemVindo.jpg");
+    background-repeat: no-repeat;
+}
+
+.interface {
+    padding: 25px;
+    font-size: x-large;
+}
+
+.box {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+    max-width: 500px;
+}
+
+.box2 {
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 25px;
+    border: solid white 1px;
+    color: white;
+    width: 280px;
+    padding: 25px;
+}
+
+button {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #2D33A6;
+    color: white;
+}
+
+button#entreEmContrato {
+    width: 200px;
+    float: right;
+}
+
+picture#cabecalho img {
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    /* max-width: 100px; */
+}
+
+picture img {
+    border-radius: 25px;
+}
+
+img#maps {
+    max-width: 900px;
+}
+
+div#funcionarios picture {
+    max-width: 380px;
+    font-size: small;
+}
+
+div#funcionarios2 {
+    width: 100$;
+}
+
+input {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #262626;
+    color: white;
+}
+
+footer h1 {
+    font-size: medium;
+}
+
+footer img {
+    max-width: 85px;
+}
+
+div#colunaFooter {
+    max-width: 380px;
+}
