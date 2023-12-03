@@ -1,3 +1,28 @@
- img {
+*{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    padding: auto;
+}
+body#bem-vindo{
+    background-image: url("fdbemVindo.jpg");
+    background-repeat: no-repeat;
+}
+.box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+}
+.box2{
+
     max-width: 500px;
+    border: solid white 1px;
+    border-radius: 25px;
+}
+button{
+    width: 400px;
+}
+img {
+    max-width: 100px;
 }
