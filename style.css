@@ -1,37 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     margin: auto;
     padding: auto;
 }
-h1{
-font-size: x-large;
-}
-p{
-    font-size: medium;
-}
-div{
+
+div {
     display: block;
 }
-ul{
+
+ul {
     max-width: 500px;
+    background-color: white;
 }
-li{
+
+li {
     font-size: medium;
     padding: 5px;
 }
-body#bem-vindo{
+
+body#bem-vindo {
     background-image: url("fdbemVindo.jpg");
     background-repeat: no-repeat;
 }
-.box{
+
+.interface {
+    padding: 25px;
+    font-size: x-large;
+}
+
+.box {
     display: block;
     justify-content: center;
     align-items: center;
     padding: 20%;
     max-width: 500px;
 }
-.box2{
+
+.box2 {
     background-color: rgba(0, 0, 0, 0.521);
     border-radius: 25px;
     border: solid white 1px;
@@ -39,31 +45,70 @@ body#bem-vindo{
     width: 280px;
     padding: 25px;
 }
-button{
+
+button {
     width: 100%;
     border-radius: 25px;
+    background-color: #2D33A6;
+    color: white;
 }
-button#entreEmContrato{
+
+button#entreEmContrato {
     width: 200px;
     float: right;
 }
+
+picture#cabecalho img {
+    max-width: 500px;
+}
+
 img {
     display: block;
-    max-width: 100px;
+    /* max-width: 100px; */
 }
-div#funcionarios picture{
+
+picture img {
+    border-radius: 25px;
+}
+
+img#maps {
+    max-width: 900px;
+}
+
+div#funcionarios picture {
     max-width: 380px;
     font-size: small;
 }
-div#funcionarios2{
+
+div#funcionarios2 {
     width: 100$;
 }
-input{
+
+input {
     display: block;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-div#colunaFooter{
+
+footer {
+    background-color: #262626;
+    color: white;
+}
+
+footer h1 {
+    font-size: medium;
+}
+
+footer img {
+    max-width: 85px;
+}
+
+div#colunaFooter {
     max-width: 380px;
+}
+
+div#cabecalho {
+    background-color: #262626;
+    color: #A6855D;
 }

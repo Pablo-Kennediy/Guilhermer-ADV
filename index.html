@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logoADV.png" type="image/x-icon">
     <title>Duarte & Santos Advocacia</title>
 </head>
 
 <body>
     <!-- cabecalho -->
-    <div>
+    <div id="cabecalho">
         <div style="display: flex;">
             <picture>
                 <img src="logoADV.png" alt="">
@@ -36,20 +37,20 @@
                     ligue para agendar sua consulta
                 </p>
             </div>
+            <button id="entreEmContrato" type="button">Entre em contrato</button>
         </div>
         <div>
-            <div style="display: flexbox;">
+            <div style="display: flexbox; background-color: white;">
                 <ul style="display: flex; list-style: none;">
                     <li>INÍCIO</li>
                     <li>ÁREAS DE ATUAÇÃO</li>
                     <li>EQUIPE</li>
                     <li>ESCRITÓRIO</li>
                 </ul>
-                <button id="entreEmContrato" type="button">Entre em contrato</button>
             </div>
 
         </div>
-        <picture>
+        <picture id="cabecalho">
             <img src="ft01cabecalho.jpg" alt="ft01cabecalho">
             <legend>
                 Duarte & Santos <br> Advocacia <br> Buscamos atender as demandas do nossos clientes de forma
@@ -60,10 +61,10 @@
                 Somos Experts em você <br> Atendemos todo o territorio Nacional.
             </legend>
         </picture>
-
     </div>
-    <!-- section 1 que só tem apresentação -->
-    <div>
+ <div class="interface">
+       <!-- section 1 que só tem apresentação -->
+       <div>
         <!-- uma linha de cada lado de uma logo aqui -->
         <img src="" alt="">
         <h2>
@@ -240,14 +241,16 @@
                 </div>
             </article>
         </div>
-        <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
-            <img src="maps.png" alt="">
-        </a>
-        <!-- uma linha de cada lado de uma logo aqui -->
-        <img src="" alt="">
-        <legend>
-            Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
-        </legend>
+                <!-- uma linha de cada lado de uma logo aqui -->
+                <img src="" alt="">
+                <legend>
+                    Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
+                </legend>
+        <picture>
+            <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
+                <img id="maps" src="maps.png" alt="">
+            </a>
+        </picture>
         <div>
             <p>
                 Estamos prontos para melhor lhe atender!
@@ -292,15 +295,14 @@
     <input placeholder="Telefone" type="text" name="" id="">
     <input placeholder="Descreva seu casa breviamente..." type="text" name="" id="">
     <button id="SA">Solicitar atendimento</button>
-    </div>
+ 
+ </div>
     <footer>
         <div style="display: flex;">
-            <picture>
-                <img src="logoADV.png" alt="logoADV">
-                <p>
-                    Duarte Santos Advocacia
-                </p>
-            </picture>
+            <img src="logoADV.png" alt="logoADV">
+            <p>
+                Duarte Santos Advocacia
+            </p>
             <div id="colunaFooter" style="display: flex;">
                 <div id="equipe">
                     <h1>
@@ -356,7 +358,7 @@
                     Assine nosso newsleter
                 </h2>
                 <div style="display: flex;">
-                    <input type="text" name="Entrer Your email" id="">
+                    <input type="text" name="" placeholder="Entrer Your email" id="">
                     <button type="button">Subscribe</button>
                 </div>
             </div>
