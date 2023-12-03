@@ -4,6 +4,22 @@
     margin: auto;
     padding: auto;
 }
+h1{
+font-size: xx-large;
+}
+p{
+    font-size: medium;
+}
+div{
+    display: block;
+}
+ul{
+    max-width: 500px;
+}
+li{
+    font-size: medium;
+    padding: 5px;
+}
 body#bem-vindo{
     background-image: url("fdbemVindo.jpg");
     background-repeat: no-repeat;
@@ -13,16 +29,29 @@ body#bem-vindo{
     justify-content: center;
     align-items: center;
     padding: 20%;
+    max-width: 500px;
 }
 .box2{
-
-    max-width: 500px;
-    border: solid white 1px;
+    background-color: rgba(0, 0, 0, 0.521);
     border-radius: 25px;
+    border: solid white 1px;
+    color: white;
+    width: 280px;
+    padding: 25px;
 }
 button{
-    width: 400px;
+    width: 100%;
+    border-radius: 25px;
+}
+button#entreEmContrato{
+    width: 200px;
+    float: right;
 }
 img {
+    display: block;
     max-width: 100px;
+}
+div#funcionarios picture{
+    max-width: 380px;
+    font-size: small;
 }

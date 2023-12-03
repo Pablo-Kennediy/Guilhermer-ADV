@@ -1,28 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Duarte & Santos Advocacia</title>
 </head>
+
 <body>
     <!-- cabecalho -->
     <div>
-        <div>
+        <div style="display: flex;">
             <picture>
                 <img src="logoADV.png" alt="">
             </picture>
+            <!-- logo de relogio -->
             <div>
                 <p>
-                    <!-- logo de relogio --> 10h às 18h
+                    10h às 18h
                 </p>
                 <p>
                     Horário de Funcionamento Seg - Sex
                 </p>
             </div>
+            <!-- logo de um telefone -->
             <div>
-                <!-- logo de um telefone -->
                 <p>
                     (47) 98803-8663
                 </p>
@@ -35,22 +38,26 @@
             </div>
         </div>
         <div>
-            <ul>
-                <li>INÍCIO</li>
-                <li>ÁREAS DE ATUAÇÃO</li>
-                <li>EQUIPE</li>
-                <li>ESCRITÓRIO</li>
-            </ul>
-            <button type="button">Entre em contrato</button>
+            <div style="display: flex;">
+                <ul style="display: flex; list-style: none;">
+                    <li>INÍCIO</li>
+                    <li>ÁREAS DE ATUAÇÃO</li>
+                    <li>EQUIPE</li>
+                    <li>ESCRITÓRIO</li>
+                </ul>
+                <button id="entreEmContrato" type="button">Entre em contrato</button>
+            </div>
+
         </div>
         <picture>
             <img src="ft01cabecalho.jpg" alt="ft01cabecalho">
             <legend>
-                Duarte & Santos <br> Advocacia <br> Buscamos atender as demandas do nossos clientes de forma estratégica.
+                Duarte & Santos <br> Advocacia <br> Buscamos atender as demandas do nossos clientes de forma
+                estratégica.
             </legend>
             <img src="ft02cabecalho.jpg" alt="ft02cabecalho">
             <legend>
-              Somos Experts em você <br> Atendemos todo o territorio Nacional.
+                Somos Experts em você <br> Atendemos todo o territorio Nacional.
             </legend>
         </picture>
 
@@ -66,15 +73,17 @@
             Optando pela Duarte & Santos você adquire um parceiro que será tão dedicado ao seu sucesso como você o é, e
             esse é o nosso diferencial.
         </p>
-        <h1>
-            Quem somos
-        </h1>
-        <p>
-            O escritório de advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca oferecer serviços
-            jurídicos de excelência, pautados na integridade, competência e respeito. Nossos valores incluem eficiência,
-            zelo, e um atendimento personalizado, visando à satisfação plena de nossos clientes.
-        </p>
-        <img src="quemsomos.png" alt="">
+<div id="quemSomos" style="display: flex;">
+    <h1>
+        Quem somos
+    </h1>
+    <p>
+        O escritório de advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca oferecer serviços
+        jurídicos de excelência, pautados na integridade, competência e respeito. Nossos valores incluem eficiência,
+        zelo, e um atendimento personalizado, visando à satisfação plena de nossos clientes.
+    </p>
+    <img src="quemsomos.png" alt="">
+</div>
         <!-- feed de noticias add -->
         <!-- areas do direito  -->
         <div>
@@ -82,7 +91,7 @@
                 Feed atualizado
             </h1>
             <article>
-                <div>
+                <div style="display: flex;">
                     <section>
                         <h1>
                             Direito Civil
@@ -99,17 +108,22 @@
                             uma
                             assessoria jurídica sólida e focada em seus objetivos.
                         </p>
+                        <picture>
+                            <!-- buscar uma imagem para a section  -->
+                            <img src="sectionDireitoCivil.jpg" alt="">
+                        </picture>
                     </section>
+                                   </div>
+                <div style="display: flex;">
                     <picture>
                         <!-- buscar uma imagem para a section  -->
-                        <img src="sectionDireitoCivil.jpg" alt="">
+                        <img src="sectionFamília.jpg" alt="">
                     </picture>
-                </div>
-                <div>
                     <section>
-                        <h1>
+                                               <h1>
                             Direito de Família
                         </h1>
+                       
                         <p>
                             Nosso escritório é especializado em direito de família, proporcionando soluções dedicadas
                             para
@@ -119,12 +133,8 @@
                             Conte conosco para defender seus interesses com sensibilidade e expertise jurídica.
                         </p>
                     </section>
-                    <picture>
-                        <!-- buscar uma imagem para a section  -->
-                        <img src="sectionFamília.jpg" alt="">
-                    </picture>
-                </div>
-                <div>
+                 </div>
+                <div style="display: flex;">
                     <section>
                         <h1>
                             Direito Criminal
@@ -139,18 +149,22 @@
                             para
                             proteger seus direitos e proporcionar a melhor defesa possível diante do sistema judicial.
                         </p>
-                    </section>
+                                            </section>
+                                            <picture>
+                                                <!-- buscar uma imagem para a section  -->
+                                                <img src="sectionDireitoCriminal.jpg" alt="">
+                                            </picture>
+                                    </div>
+                <div style="display: flex;">
                     <picture>
                         <!-- buscar uma imagem para a section  -->
-                        <img src="sectionDireitoCriminal.jpg" alt="">
+                        <img src="sectionDireitoCível.jpg" alt="">
                     </picture>
-                </div>
-                <div>
                     <section>
-                        <h1>
+                                                <h1>
                             Direito Cível
                         </h1>
-                        <p>
+                                                <p>
                             Nosso escritório de advocacia em direito cível destaca-se na proteção de seus interesses em
                             áreas como responsabilidade civil, contratos, propriedade e outros. Com atendimento
                             personalizado e equipe especializada, oferecemos soluções eficazes para disputas legais e
@@ -159,12 +173,8 @@
                             estratégica, assegurando seus direitos no âmbito civil.
                         </p>
                     </section>
-                    <picture>
-                        <!-- buscar uma imagem para a section  -->
-                        <img src="sectionDireitoCível.jpg" alt="">
-                    </picture>
                 </div>
-                <div>
+                <div style="display: flex;">
                     <section>
                         <h1>
                             Direito Previdenciário
@@ -180,18 +190,22 @@
                             ao
                             longo de sua vida.
                         </p>
-                    </section>
+                                            </section>
+                                            <picture>
+                                                <!-- buscar uma imagem para a section  -->
+                                                <img src="sectionDireitoCível.jpg" alt="">
+                                            </picture>
+                                    </div>
+                <div style="display: flex;">
                     <picture>
                         <!-- buscar uma imagem para a section  -->
-                        <img src="" alt="">
+                        <img src="sectionDireitoCível.jpg" alt="">
                     </picture>
-                </div>
-                <div>
                     <section>
-                        <h1>
+                                                <h1>
                             Direito do Consumidor
                         </h1>
-                        <p>
+                                                <p>
                             Na área de direito do consumidor, defendemos seus direitos em casos de práticas abusivas,
                             vícios
                             de
@@ -203,12 +217,8 @@
                             consumidor.
                         </p>
                     </section>
-                    <picture>
-                        <!-- buscar uma imagem para a section  -->
-                        <img src="" alt="">
-                    </picture>
                 </div>
-                <div>
+                <div style="display: flex;">
                     <section>
                         <h1>
                             Suporte VIP
@@ -224,12 +234,14 @@
                     </section>
                     <picture>
                         <!-- buscar uma imagem para a section  -->
-                        <img src="" alt="">
+                        <img src="sectionDireitoCível.jpg" alt="">
                     </picture>
                 </div>
             </article>
         </div>
-        <img src="maps.png" alt="">
+        <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
+            <img src="maps.png" alt="">
+        </a>
         <!-- uma linha de cada lado de uma logo aqui -->
         <img src="" alt="">
         <legend>
@@ -242,23 +254,23 @@
         </div>
     </div>
     <!-- funcionarios -->
-    <div>
+    <div id="funcionarios" style="display: flex;">
         <picture>
             <img src="francisco.jpg" alt="francisco">
             <legend>
-                <h1>Francisco Duarte De Souza Filho</h1>
-                <number>(47) 99623-7330</number>
-                OAB/SC nº 15.628
+                <strong>Francisco Duarte De Souza Filho</strong> <br>
+                <number>(47) 99623-7330</number> <br>
+                <strong>OAB/SC nº 15.628</strong>
             </legend>
         </picture>
         <picture>
             <img src="guilherme.jpg" alt="guilherme">
             <legend>
-                <h1> Guilherme Henrrique De Oliveira Santos</h1>
+                <strong>Guilherme Henrrique De Oliveira Santos</strong> <br>
                 <number>
                     (47) 98803-8663
-                </number>
-                OAB/SP nº 391.588, OAB/SC 68598
+                </number> <br>
+                <strong>OAB/SP nº 391.588, OAB/SC 68598</strong>
             </legend>
         </picture>
         <p>
@@ -345,15 +357,16 @@
         <p>
             © 2023 Duarte Santos Advocacia Todos os direitos reservados
         </p>
-    <picture>
+        <picture>
             <img src="logo-do-instagram.png" alt="instagram">
-    </picture>
-    <picture>
+        </picture>
+        <picture>
             <img src="logo-do-facebook.png" alt="facebook">
-    </picture>
-    <picture>
+        </picture>
+        <picture>
             <img src="logo-do-gmail.png" alt="gmail">
-    </picture>
+        </picture>
     </footer>
 </body>
+
 </html>
