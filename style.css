@@ -21,8 +21,6 @@ li {
 body {
     align-items: center;
     justify-content: center;
-    margin: 0;
-    min-height: 100vh;
   }
   
 .carrossel {
@@ -49,8 +47,10 @@ body#bem-vindo {
     background-repeat: no-repeat;
 }
 header{
+    width: 100%;
     background-color: #262626;
-    color: white;
+    color: #BF6D24;
+    padding: 5px;
 }
 
 .interface {
@@ -58,6 +58,7 @@ header{
     font-size: x-large;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
 .box {
@@ -88,6 +89,10 @@ button#entreEmContrato {
     width: 200px;
     float: right;
 }
+picture#logoADV img{
+    max-width: 85px;
+    float: left;
+}
 
 picture#cabecalho img {
     max-width: 500px;
@@ -107,12 +112,31 @@ img {
 }
 
 div#funcionarios picture {
-    max-width: 380px;
-    font-size: small;
+    width: 80px;
+}
+legend{
+    margin: 10px;
+    background-color: #091740;
+    border: 7px black solid;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+}
+.funcionarios2{
+    padding: 10px;
 }
 
-div#funcionarios2 {
-    width: 100px;
+.funcionarios2 img {
+    box-shadow: 0px 5px 5px;
+}
+.funcionarios2 picture{
+    width: 300px;
+    height:400px;
+    display: block;
+    padding: 20px;
+}
+number{
+    color: green;
 }
 
 input {
@@ -120,12 +144,14 @@ input {
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 10px;
 }
 
 footer {
     background-color: #262626;
     color: white;
     width: 100%;
+    padding: 10px;
 }
 
 footer h1 {
@@ -133,9 +159,21 @@ footer h1 {
 }
 
 footer img {
-    max-width: 85px;
+    max-width: 35px;
 }
 
-div#colunaFooter {
+.colunaFooter {
     max-width: 380px;
+}
+.colunaFooter section{
+    width: 100%;
+}
+label{
+    font-size: small;
+}
+div#assine{
+max-width: 300px;
+}
+div#subFooter{
+    max-width: 300px;
 }

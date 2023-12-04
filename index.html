@@ -16,57 +16,32 @@
 
 <body>
     <header>
+        <picture id="logoADV">
+            <img src="img/logoADV.png" alt="">
+        </picture>
         <div style="display: flex;">
-            <picture>
-                <img src="img/logoADV.png" alt="">
-            </picture>
-            <!-- logo de relogio -->
-            <div>
-                <p>
-                    10h às 18h
-                </p>
-                <p>
-                    Horário de Funcionamento Seg - Sex
-                </p>
-            </div>
-            <!-- logo de um telefone -->
-            <div>
-                <p>
-                    (47) 98803-8663
-                </p>
-                <p>
-                    (47) 99623-7330
-                </p>
-                <p>
-                    ligue para agendar sua consulta
-                </p>
-            </div>
-            <button id="entreEmContrato" type="button">Entre em contrato</button>
+
+            <button id="entreEmContrato" type="button" style="float: right;">Entre em contrato</button>
         </div>
     </header>
-    <div style="display: flexbox; background-color: white;">
-        <ul style="display: flex; list-style: none;">
-            <li>INÍCIO</li>
-            <li>ÁREAS DE ATUAÇÃO</li>
-            <li>EQUIPE</li>
-            <li>ESCRITÓRIO</li>
-        </ul>
-    </div>
-
-    <picture id="carrocel">
-        <div class="carrossel">
-            <div class="container">
-                <img src="img/ft01cabecalho.jpg" alt="" />
-                <img src="img/ft02cabecalho.jpg" alt="" />
-                <img src="img/ft03cabecalho.jpg" alt="" />
-            </div>
-        </div>
-    </picture>
-
-
-
-
     <div class="interface">
+        <div style="display: flexbox; background-color: white;">
+            <ul style="display: flex; list-style: none;">
+                <li>INÍCIO</li>
+                <li>ÁREAS DE ATUAÇÃO</li>
+                <li>EQUIPE</li>
+                <li>ESCRITÓRIO</li>
+            </ul>
+        </div>
+        <picture id="carrocel">
+            <div class="carrossel">
+                <div class="container">
+                    <img src="img/ft01cabecalho.jpg" alt="" />
+                    <img src="img/ft02cabecalho.jpg" alt="" />
+                    <img src="img/ft03cabecalho.jpg" alt="" />
+                </div>
+            </div>
+        </picture>
         <!-- section 1 que só tem apresentação -->
         <div>
             <!-- uma linha de cada lado de uma logo aqui -->
@@ -86,7 +61,8 @@
                 </h1>
                 <section>
                     <p>
-                        O escritório de advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca oferecer serviços
+                        O escritório de advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca oferecer
+                        serviços
                         jurídicos de excelência, pautados na integridade, competência e respeito. Nossos valores incluem
                         eficiência,
                         zelo, e um atendimento personalizado, visando à satisfação plena de nossos clientes.
@@ -285,27 +261,33 @@
             </div>
         </div>
         <!-- funcionarios -->
-        <div class="funcionarios2" style=" display: flex;">
+        <div class="funcionarios2">
             <!-- Imagem do Francisco Duarte -->
-            <picture>
-                <img src="img/francisco.jpg" alt="francisco">
-                <legend>
-                    <strong>Francisco Duarte De Souza Filho</strong> <br>
-                    <number>(47) 99623-7330</number> <br>
-                    <strong>OAB/SC nº 15.628</strong>
-                </legend>
-            </picture>
-            <!-- Imagem do Guilherme Henrrique -->
-            <picture>
-                <img src="img/guilherme.jpg" alt="guilherme">
-                <legend>
-                    <strong>Guilherme Henrrique De Oliveira Santos</strong> <br>
-                    <number>
-                        (47) 98803-8663
-                    </number> <br>
-                    <strong>OAB/SP nº 391.588, OAB/SC 68598</strong>
-                </legend>
-            </picture>
+            <div style="display: flex;">
+                <picture>
+                    <img src="img/francisco.jpg" alt="francisco">
+                    <label for="">
+                        <legend>
+                            <strong>Francisco Duarte De Souza Filho</strong> <br>
+                            <number>(47) 99623-7330</number> <br>
+                            <strong>OAB/SC nº 15.628</strong>
+                        </legend>
+                    </label>
+                </picture>
+                <!-- Imagem do Guilherme Henrrique -->
+                <picture>
+                    <img src="img/guilherme.jpg" alt="guilherme">
+                    <label for="">
+                        <legend>
+                            <strong>Guilherme Henrrique De Oliveira Santos</strong> <br>
+                            <number>
+                                (47) 98803-8663
+                            </number> <br>
+                            <strong>OAB/SP nº 391.588, OAB/SC 68598</strong>
+                        </legend>
+                    </label>
+                </picture>
+            </div>
         </div>
         <div class="funcionario3">
             <p>
@@ -326,13 +308,15 @@
 
     <footer>
         <div style="display: flexbox;">
-            <div>
+            <picture>
                 <img src="img/logoADV.png" alt="logoADV">
-                <p>
-                    Duarte Santos Advocacia
-                </p>
-                <div id="colunaFooter" style="display: flex;">
-                    <div id="equipe">
+            </picture>
+            <p>
+                Duarte Santos Advocacia
+            </p>
+            <section>
+                <div class="colunaFooter">
+                    <section id="equipe">
                         <h1>
                             Equipe
                         </h1>
@@ -342,8 +326,8 @@
                         <p>
                             Dr. Guilherme Santos
                         </p>
-                    </div>
-                    <div id="escritório">
+                    </section>
+                    <section id="escritório">
                         <h1>
                             Escritório
                         </h1>
@@ -356,8 +340,8 @@
                         <p>
                             Noticias
                         </p>
-                    </div>
-                    <div id="areas">
+                    </section>
+                    <section id="areas">
                         <h1>
                             Áreas de atuação
                         </h1>
@@ -379,40 +363,35 @@
                         <p>
                             Contratos
                         </p>
-                    </div>
+                    </section>
                 </div>
-                <div id="assine">
-                    <h2>
-                        Assine nosso newsleter
-                    </h2>
-                    <div style="display: flex;">
-                        <input type="text" name="" placeholder="Entrer Your email" id="">
-                        <button type="button">Subscribe</button>
-                    </div>
-                </div>
-            </div>
-            <div id="subFooter">
-                <div>
-                    <p>
-                        © 2023 Duarte Santos Advocacia Todos os direitos reservados
-                    </p>
-                </div>
-                <div>
-                    <div style="display: flex;">
-                        <picture>
-                            <img src="img/logo-do-instagram.png" alt="instagram">
-                        </picture>
-                        <picture>
-                            <img src="img/logo-do-facebook.png" alt="facebook">
-                        </picture>
-                        <picture>
-                            <img src="img/logo-do-gmail.png" alt="gmail">
-                        </picture>
-                    </div>
-                </div>
-
-            </div>
+            </section>
         </div>
+        <div id="assine" >
+            <h2>
+                Assine nosso newsleter
+            </h2>
+                <input type="text" name="" placeholder="Entrer Your email" id="">
+                <button type="button">Subscribe</button>
+        </div>
+                    <div>
+                <section >
+                <div id="subFooter" style="display: flex;">
+                    <picture>
+                        <img src="img/logo-do-instagram.png" alt="instagram">
+                    </picture>
+                    <picture>
+                        <img src="img/logo-do-facebook.png" alt="facebook">
+                    </picture>
+                    <picture>
+                        <img src="img/logo-do-gmail.png" alt="gmail">
+                    </picture>
+                </div>
+            
+            <p>
+                © 2023 Duarte Santos Advocacia Todos os direitos reservados
+            </p>
+        </section>
     </footer>
 </body>
 
