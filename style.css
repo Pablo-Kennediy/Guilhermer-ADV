@@ -9,31 +9,15 @@ div {
 
 ul {
     background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
 }
 
 li {
-    display: block;
-    font-size: medium;
-    padding: 5px;
-}
-
-.carrossel {
-    filter: drop-shadow(0px 0px 10px #000);
-    overflow: hidden;
-    width: 100%;
-    height: 570px;
-}
-
-.containeer {
-    display: flex;
-    transition: 0.7s ease-in-out;
-    transform: translateX(0);
-}
-
-picture#carrocel img {
-    margin-top: -100px;
-    width: 100%;
-    height: 720px;
+    display: inline-block;
+    margin: 5px;
 }
 
 body#bem-vindo {
@@ -53,6 +37,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+article{
+    background-color: rgb(0, 0, 0);
+}
 
 footer {
     position: relative;
@@ -61,12 +48,61 @@ footer {
     padding: 5px;
     font-size: small;
 }
+#subimagem{
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
 
 section {
     justify-content: center;
     align-items: center;
     background-size: cover;
 }
+
+.normal {
+background-color: white;
+height: 30vh;
+}
+
+.imagem {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01 {
+    display: block;
+    background-image: url("img/sectionDireitoCivil.jpg");
+    background-position: right center;   
+}
+
+#img02 {
+    display: block;
+    background-image: url("img/sectionFamília.jpg");
+}
+#img03{
+    display: block;
+    background-image: url("sectionDireitoCriminal.jpg");
+}
+
+
+
+
+
+
+
+
+
 
 .box {
     display: block;
