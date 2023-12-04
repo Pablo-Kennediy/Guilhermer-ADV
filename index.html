@@ -18,22 +18,38 @@
     <header>
         <picture id="logoADV">
             <img src="img/logoADV.png" alt="">
-        </picture>
-        <div style="display: flex;">
-
-            <button id="entreEmContrato" type="button" style="float: right;">Entre em contrato</button>
-        </div>
+        </picture>     
+            <div>
+                <p>
+                    10h às 18h
+                </p>
+                <p>
+                    Horário de Funcionamento Seg - Sex
+                </p>
+            </div>
+            <div>
+                <number>
+                    (47) 98803-8663
+                </number>
+                <number>
+                    (47) 99623-7330
+                </number>
+                <p>
+                    ligue para agendar sua consulta
+                </p>
+            </div>  
     </header>
     <div class="interface">
-        <div style="display: flexbox; background-color: white;">
-            <ul style="display: flex; list-style: none;">
+        <button id="entreEmContrato" type="button">Entre em contrato</button>
+        <div>
+            <ul>
                 <li>INÍCIO</li>
                 <li>ÁREAS DE ATUAÇÃO</li>
                 <li>EQUIPE</li>
                 <li>ESCRITÓRIO</li>
             </ul>
         </div>
-        <picture id="carrocel">
+        <!-- <picture id="carrocel">
             <div class="carrossel">
                 <div class="container">
                     <img src="img/ft01cabecalho.jpg" alt="" />
@@ -41,7 +57,7 @@
                     <img src="img/ft03cabecalho.jpg" alt="" />
                 </div>
             </div>
-        </picture>
+        </picture> -->
         <!-- section 1 que só tem apresentação -->
         <div>
             <!-- uma linha de cada lado de uma logo aqui -->
@@ -246,24 +262,26 @@
                 </article>
             </div>
             <img src="img/plat.png" alt="">
-            <p style="text-align: center;">
-                Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
-            </p>
-            <picture>
-                <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
-                    <img id="maps" src="img/maps.png" alt="">
-                </a>
-            </picture>
+            <div>
+                <p style="text-align: center;">
+                    Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
+                </p>
+                <picture>
+                    <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
+                        <img id="maps" src="img/maps.png" alt="">
+                    </a>
+                </picture>
+            </div>
             <div>
                 <p>
                     Estamos prontos para melhor lhe atender!
                 </p>
             </div>
         </div>
-        <!-- funcionarios -->
-        <div class="funcionarios2">
-            <!-- Imagem do Francisco Duarte -->
-            <div style="display: flex;">
+        <section>
+            <!-- funcionarios -->
+            <div class="funcionarios2">
+                <!-- Imagem do Francisco Duarte -->
                 <picture>
                     <img src="img/francisco.jpg" alt="francisco">
                     <label for="">
@@ -288,110 +306,82 @@
                     </label>
                 </picture>
             </div>
-        </div>
-        <div class="funcionario3">
             <p>
                 Nossos advogados especializados estão prontos para fornecer orientação jurídica personalizada e resolver
                 suas preocupações. Sua paz de espírito é nossa prioridade.
             </p>
             <button>Entre em contrato</button>
-        </div>
-        <p id="CSCC">
-            Compartilhe seu caso conosco!
-        </p>
-        <input placeholder="Nome completo" type="text" name="" id="">
-        <input placeholder="Email" type="text" name="" id="">
-        <input placeholder="Telefone" type="text" name="" id="">
-        <input placeholder="Descreva seu casa breviamente..." type="text" name="" id="">
-        <button id="SA">Solicitar atendimento</button>
-    </div>
-
-    <footer>
-        <div style="display: flexbox;">
-            <picture>
-                <img src="img/logoADV.png" alt="logoADV">
-            </picture>
-            <p>
-                Duarte Santos Advocacia
+            <p id="CSCC">
+                Compartilhe seu caso conosco!
             </p>
-            <section>
-                <div class="colunaFooter">
-                    <section id="equipe">
-                        <h1>
-                            Equipe
-                        </h1>
-                        <p>
-                            Dr. Francisco Duarte
-                        </p>
-                        <p>
-                            Dr. Guilherme Santos
-                        </p>
-                    </section>
-                    <section id="escritório">
-                        <h1>
-                            Escritório
-                        </h1>
-                        <p>
-                            Sobre
-                        </p>
-                        <p>
-                            Localização
-                        </p>
-                        <p>
-                            Noticias
-                        </p>
-                    </section>
-                    <section id="areas">
-                        <h1>
-                            Áreas de atuação
-                        </h1>
-                        <p>
-                            Cível
-                        </p>
-                        <p>
-                            Criminal
-                        </p>
-                        <p>
-                            Previdenciário
-                        </p>
-                        <p>
-                            Família
-                        </p>
-                        <p>
-                            Consumidor
-                        </p>
-                        <p>
-                            Contratos
-                        </p>
-                    </section>
-                </div>
-            </section>
-        </div>
-        <div id="assine" >
-            <h2>
-                Assine nosso newsleter
-            </h2>
+            <input placeholder="Nome completo" type="text" name="" id="">
+            <input placeholder="Email" type="text" name="" id="">
+            <input placeholder="Telefone" type="text" name="" id="">
+            <input placeholder="Descreva seu casa breviamente..." type="text" name="" id="">
+            <button id="SA">Solicitar atendimento</button>
+        </section>
+    </div>
+    <footer>
+        <picture id="logoADV">
+            <img src="img/logoADV.png" alt="">
+        </picture>
+        <div style="display: flex;">
+            <div>
+                <h1>
+                    Equipe
+                </h1>
+                <p>
+                    Dr. Francisco Duarte
+                </p>
+                <p>
+                    Dr. Guilherme Santos
+                </p>
+                <h1>
+                    Escritório
+                </h1>
+                <p>
+                    Sobre
+                </p>
+                <p>
+                    Localização
+                </p>
+                <p>
+                    Noticias
+                </p>
+                <h1>
+                    Áreas de atuação
+                </h1>
+                <p>
+                    Cível
+                </p>
+                <p>
+                    Criminal
+                </p>
+                <p>
+                    Previdenciário
+                </p>
+                <p>
+                    Família
+                </p>
+                <p>
+                    Consumidor
+                </p>
+                <p>
+                    Contratos
+                </p>
+            </div>
+            <div id="assine">
+                <h2>
+                    Assine nosso newsleter
+                </h2>
                 <input type="text" name="" placeholder="Entrer Your email" id="">
                 <button type="button">Subscribe</button>
+            </div>
         </div>
-                    <div>
-                <section >
-                <div id="subFooter" style="display: flex;">
-                    <picture>
-                        <img src="img/logo-do-instagram.png" alt="instagram">
-                    </picture>
-                    <picture>
-                        <img src="img/logo-do-facebook.png" alt="facebook">
-                    </picture>
-                    <picture>
-                        <img src="img/logo-do-gmail.png" alt="gmail">
-                    </picture>
-                </div>
-            
-            <p>
-                © 2023 Duarte Santos Advocacia Todos os direitos reservados
-            </p>
-        </section>
+        <p>
+
+            © 2023 Duarte Santos Advocacia Todos os direitos reservados
+        </p>
     </footer>
 </body>
 
