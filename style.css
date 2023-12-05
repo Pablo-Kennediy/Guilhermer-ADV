@@ -50,11 +50,6 @@ li {
     margin: 5px;
 }
 
-body#bem-vindo {
-    background-image: url("fdbemVindo.jpg");
-    background-repeat: no-repeat;
-}
-
 header {
     background-color: #262626;
     color: #BF6D24;
@@ -149,22 +144,32 @@ picture#logoWhatsapp img {
     display: block;
     background-image: url("img/sectionDireitoDoConsumidor.png");
 } */
-
-/* .box {
-    display: block;
+body#bem-vindo {
+    background-image: url("img/fdbemVindo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box {
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20%;
-    max-width: 500px;
-} */
-
+    
+}
+.box1{
+    max-width: 600px;
+}
 .box2 {
+    width: 280px;
+    padding: 25px;
+}
+section#vindo{
     background-color: rgba(0, 0, 0, 0.521);
     border-radius: 25px;
     border: solid white 1px;
+    padding: 20px;
     color: white;
-    width: 280px;
-    padding: 25px;
+    margin-top: 14vh;
 }
 
 button {
