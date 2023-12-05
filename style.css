@@ -3,11 +3,13 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-video{
+
+video {
     box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
     width: 100%;
 }
-.video video{
+
+.video video {
     background-size: cover;
 }
 
@@ -23,6 +25,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 ul {
     background-color: white;
     align-items: center;
@@ -85,7 +88,7 @@ footer {
 */
 .imagem {
     display: flex;
-} 
+}
 
 picture#logoWhatsapp {
     margin: auto;
@@ -137,13 +140,13 @@ picture#logoWhatsapp img {
     background-image: url("img/sectionDireitoDoConsumidor.png");
 } */
 
-.box {
+/* .box {
     display: block;
     justify-content: center;
     align-items: center;
     padding: 20%;
     max-width: 500px;
-}
+} */
 
 .box2 {
     background-color: rgba(0, 0, 0, 0.521);
@@ -209,7 +212,7 @@ legend {
     border: 7px black solid;
     border-radius: 25px;
     color: white;
-    
+
 }
 
 
@@ -218,22 +221,24 @@ legend {
 .funcionarios3 {
     margin-top: 20px;
 }
-.funcionarios2{
+
+.funcionarios2 {
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
-.funcionarios02 img{
+.funcionarios02 img {
     display: block;
     box-shadow: 0px 5px 5px;
     margin-top: 20px;
-    height: 500px;
     max-width: 380px;
 }
 
-legend{
-    display: flex;
+legend {
+    max-width: 300px;
 }
+
 legend number {
     color: green;
 }
@@ -267,14 +272,17 @@ div#assine {
 div#subFooter {
     max-width: 300px;
 }
+
 section {
     justify-content: center;
     align-items: center;
     background-size: cover;
 }
+
 article#feed section {
     margin-top: 20px;
 }
+
 article#feed img {
     max-width: 200px;
 }
