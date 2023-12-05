@@ -53,10 +53,6 @@ header {
     justify-content: center;
 }
 
-article {
-    background-color: rgb(0, 0, 0);
-}
-
 footer {
     position: relative;
     background-color: #262626;
@@ -67,21 +63,17 @@ footer {
     align-items: center;
 }
 
-#subimagem {
-    background-color: rgba(0, 0, 0, 0.753);
+/* #subimagem {
+    background-color: rgba(0, 0, 0, 0);
     height: 100%;
-    text-align: center;
     color: white;
     padding: 20px;
 }
+#subimagem p{
+    text-align: center;
+} */
 
-section {
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-}
-
-.normal {
+/* .normal {
     display: flex;
     background-color: white;
 }
@@ -90,12 +82,10 @@ section {
     max-width: 300px;
     background-size: cover;
 }
-
+*/
 .imagem {
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
-}
+    display: flex;
+} 
 
 picture#logoWhatsapp {
     margin: auto;
@@ -110,7 +100,7 @@ picture#logoWhatsapp img {
     width: 50px;
 }
 
-section.imagem>p {
+/* section.imagem>p {
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px black;
@@ -145,7 +135,7 @@ section.imagem>p {
 #img06 {
     display: block;
     background-image: url("img/sectionDireitoDoConsumidor.png");
-}
+} */
 
 .box {
     display: block;
@@ -218,29 +208,32 @@ legend {
     background-color: #091740;
     border: 7px black solid;
     border-radius: 25px;
-    padding: 10px;
     color: white;
+    
 }
 
-.funcionarios2 {
-    padding: 10px;
-}
+
+
 
 .funcionarios3 {
     margin-top: 20px;
 }
-
-.funcionarios2 img {
-    box-shadow: 0px 5px 5px;
+.funcionarios2{
+    justify-content: center;
+    align-items: center;
 }
 
-.funcionarios2 picture {
-    width: 300px;
-    height: 500px;
+.funcionarios02 img{
     display: block;
-    padding: 20px;
+    box-shadow: 0px 5px 5px;
+    margin-top: 20px;
+    height: 500px;
+    max-width: 380px;
 }
 
+legend{
+    display: flex;
+}
 legend number {
     color: green;
 }
@@ -273,4 +266,15 @@ div#assine {
 
 div#subFooter {
     max-width: 300px;
+}
+section {
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+article#feed section {
+    margin-top: 20px;
+}
+article#feed img {
+    max-width: 200px;
 }
