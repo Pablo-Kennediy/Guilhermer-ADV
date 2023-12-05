@@ -64,7 +64,6 @@ header {
 .interface {
     position: relative;
     align-items: center;
-    justify-content: center;
 }
 
 footer {
@@ -288,4 +287,10 @@ article#feed section {
 
 article#feed img {
     max-width: 400px;
+}
+article#feed h1{
+    margin-top: 20px;
+}
+article#feed p{
+    text-align: center;
 }
