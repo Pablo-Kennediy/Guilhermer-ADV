@@ -294,3 +294,15 @@ article#feed h1{
 article#feed p{
     text-align: center;
 }
+picture img#plat{
+    display: flex;
+    margin: auto;
+   
+}
+img#plat{
+    margin: 20px;
+    width: 50px;
+}
+img#plat1{
+    max-width: 300px;
+}
