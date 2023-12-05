@@ -13,7 +13,7 @@ video {
     background-size: cover;
 }
 #quemsomos img {
-    width: 500px;
+    max-width: 500px;
     border-radius: 15px;
 }
 #quemsomos section {
@@ -297,7 +297,6 @@ article#feed p{
 picture img#plat{
     display: flex;
     margin: auto;
-   
 }
 img#plat{
     margin: 20px;
@@ -305,4 +304,11 @@ img#plat{
 }
 img#plat1{
     max-width: 300px;
+}
+.iframe{
+    display: block;
+    padding: 10px;
+}
+iframe{
+    width: 100%;
 }
