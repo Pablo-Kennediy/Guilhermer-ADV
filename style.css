@@ -12,6 +12,17 @@ video {
 .video video {
     background-size: cover;
 }
+#quemsomos img {
+    width: 500px;
+    border-radius: 15px;
+}
+#quemsomos section {
+    font-size: small;
+}
+
+picture#quemsomos p {
+    margin: 5px;
+}
 
 div {
     display: block;
@@ -176,14 +187,6 @@ header picture#logoADV img {
 
 aside {
     padding: 20px;
-}
-
-#quemsomos img {
-    border-radius: 15px;
-}
-
-picture#quemsomos p {
-    margin: 5px;
 }
 
 picture#cabecalho img {
