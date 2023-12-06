@@ -12,10 +12,12 @@ video {
 .video video {
     background-size: cover;
 }
+
 #quemsomos img {
     max-width: 500px;
     border-radius: 15px;
 }
+
 #quemsomos section {
     font-size: small;
 }
@@ -69,6 +71,11 @@ footer {
     font-size: small;
     justify-content: center;
     align-items: center;
+}
+
+footer h1,
+p {
+    font-size: small;
 }
 
 /* #subimagem {
@@ -150,32 +157,57 @@ body#bem-vindo {
     background-position: center;
     background-size: cover;
 }
+
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.box1{
-    max-width: 600px;
+
+.box1 {
+    /* max-width: 700px; */
 }
+
 .box2 {
-    width: 280px;
     padding: 25px;
 }
-section#vindo{
-    background-color: rgba(0, 0, 0, 0.521);
+
+section#vindo {
+    background-color: rgba(128, 128, 128, 0.363);
     border-radius: 25px;
-    border: solid white 1px;
     padding: 20px;
     color: white;
-    margin-top: 14vh;
 }
+
+section#vindo button {
+    color: #c06414;
+    height: 50px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.boxbtn {
+    text-align: center;
+}
+.logozinhaWP{
+    display: flex;
+    padding: 10px;
+    background-color: #1C2559;
+    border-radius: 25px;
+    margin: 5px;
+    color: #A68A56;
+}
+.logozinhaWP img {
+    border-radius: 360px;
+    width: 30px;
+}
+
 
 button {
     width: 100%;
     border-radius: 25px;
-    background-color: #2D33A6;
+    background-color: #1C2559;
     color: white;
 }
 
@@ -293,27 +325,34 @@ article#feed section {
 article#feed img {
     max-width: 80px;
 }
-article#feed h1{
+
+article#feed h1 {
     margin-top: 20px;
 }
-article#feed p{
+
+article#feed p {
     text-align: center;
 }
-picture img#plat{
+
+picture img#plat {
     display: flex;
     margin: auto;
 }
-img#plat{
+
+img#plat {
     margin: 20px;
     width: 50px;
 }
-img#plat1{
+
+img#plat1 {
     max-width: 300px;
 }
-.iframe{
+
+.iframe {
     display: block;
     padding: 10px;
 }
-iframe{
+
+iframe {
     width: 100%;
 }
