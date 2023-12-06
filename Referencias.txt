@@ -31,8 +31,11 @@ manda o cliente direto pro whatsapp para conversar
 + uma tela de formulario marca um horario com o cliente.
 
 
+----------
+link 
 
-
+whatsapp - https://api.whatsapp.com/send/?phone=5547988038663&text=Ol%C3%A1%2C+preciso+falar+com+um+advogado%21&type=phone_number&app_absent=0
+maps - https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7
 
 
 ------------

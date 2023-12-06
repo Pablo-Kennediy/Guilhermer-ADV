@@ -45,18 +45,24 @@ ul {
     justify-content: center;
     text-align: center;
     list-style: none;
+    font-size: 20px;
 }
-
+.ooo{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: smaller;
+}
 li {
     display: inline-block;
-    margin: 5px;
 }
-
+header p{
+    color: white;
+}
 header {
     background-color: #262626;
     color: #BF6D24;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .interface {
@@ -77,6 +83,13 @@ footer {
 footer h1,
 p {
     font-size: small;
+}
+
+.ww{
+    color: #1C2559;
+}
+.ee{
+    color: #c06414;
 }
 
 /* #subimagem {
@@ -101,8 +114,11 @@ p {
 */
 .imagem {
     display: flex;
+    max-width: 900px;
 }
-
+.imagem p{
+    max-width: 500px;
+}
 picture#logoWhatsapp {
     margin: auto;
 }
@@ -177,10 +193,11 @@ body#bem-vindo {
 }
 
 section#vindo {
-    background-color: rgba(128, 128, 128, 0.363);
+    background-color: rgba(128, 128, 128, 0.459);
     border-radius: 25px;
     padding: 20px;
     color: white;
+    padding: 25px;
 }
 
 section#vindo button {
@@ -203,18 +220,23 @@ section#vindo button {
 }
 .logozinhaWPflex{
 
-    max-width: 300px;
+    max-width: 100px;
 }
 .logozinhaWP label{
-        color: #c06414;
+   color: #c06414;
+}
+.btn{
+padding: 25px 25px;
+}
+.btn section{
+    margin: 200px;
 }
 .btn img {
-    border-radius: 360px;
-    width: 30px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 55px;
     /* margin-right: 40px; */
 }
-
-
 button {
     width: 100%;
     border-radius: 25px;
@@ -367,8 +389,4 @@ img#plat1 {
 
 iframe {
     width: 100%;
-}
-.ooo{
-    margin-left: 10px;
-    margin-right: 10px;
 }
