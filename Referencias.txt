@@ -1,5 +1,17 @@
 Ficha de anotações para > correção UI x UX
 
+2 HTML + 1 CSS + 1 JAVASCRIPT
+
+Compilado = SUCESSO
+Responsivo = SECESSO
+Peso dos AQV = 46 % 'leve'
+
+index - 385 linhas de comando
+bem-vindo - 117 linhas de comando
+imagens - 15 em PNG + 7 em JPG
+audio - 0 som
+video - 1 MP4
+
 Valor investido '250 reais' recriando tudo de novo.
 
 não esqueça da imagem da casinha
@@ -60,7 +72,7 @@ Aqui usando apenas servidores validados e com canal e floxos continuos a criptog
 
 Agência de web design PK Digital Products cria arquivos HTML e CSS
 
-A agência de web design PK Digital Products, liderada por Pablo Kennedy, conhecido pelo apelido de Nike, criou os arquivos HTML e CSS deste documento. O desenvolvimento do arquivo levou 3 dias, 5 horas, 27 minutos e 38 segundos.
+A agência de web design PK Digital Products, liderada por Pablo Kennedy, conhecido pelo apelido de Nike, criou os arquivos HTML, CSS e JavaScript deste documento. O desenvolvimento do arquivo levou 3 dias, 5 horas, 27 minutos e 38 segundos.
 
 Nike começou a trabalhar no arquivo no bloco de notas, onde criou a estrutura básica da página. Em seguida, ele adicionou o conteúdo e o estilo, utilizando as linguagens HTML e CSS. O arquivo foi finalizado no dia 2 de dezembro de 2023, às 12h40, e publicado no GitHub.
 
