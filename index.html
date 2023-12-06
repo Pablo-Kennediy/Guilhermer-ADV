@@ -29,18 +29,25 @@
     </header>
     <div>
         <ul style="border-bottom:1px solid #606060;">
-            <a href="#img01">
-                <li>ÁREAS DE ATUAÇÃO</li>
+            <a href="#fed">
+                <li class="ooo">ÁREAS DE ATUAÇÃO</li>
             </a>
             <a href="#equipe">
-                <li>EQUIPE</li>
+                <li class="ooo">EQUIPE</li>
             </a>
             <a href="#maps">
-                <li>ESCRITÓRIO</li>
+                <li class="ooo">ESCRITÓRIO</li>
+            </a>
+            <a href="">
+                <li class="ooo">AGENDAMENTO</li>
             </a>
         </ul>
     </div>
     <div class="interface">
+        <a
+            href="https://api.whatsapp.com/send/?phone=5547988038663&text=Ol%C3%A1%2C+preciso+falar+com+um+advogado%21&type=phone_number&app_absent=0">
+            <button id="entreEmContrato" type="button">Entre em contrato</button>
+        </a>
         <p>
             ligue para agendar sua consulta
         </p>
@@ -71,58 +78,61 @@
         <!-- section 1 que só tem apresentação -->
         <div>
             <!-- uma linha de cada lado de uma logo aqui -->
-            <img src="" alt="">
-            <h2>
+                        <h2>
                 Defendemos seus direitos com paixão e precisão, transformando desafios jurídicos em conquistas de
                 justiça.
             </h2>
-            <p>
+            <picture style="display: flex;">
+                <img src="img/plat1.png" alt="">
+                <img id="plat" src="img/plat.png" alt="">
+                <img src="img/plat1.png" alt="">
+            </picture>
+                        <p>
                 Optando pela Duarte e Santos você adquire um parceiro que será tão dedicado ao seu sucesso como você
                 o
                 é, e
                 esse é o nosso diferencial.
             </p>
+         
 
-          <div>
-            <div id="quemsomos" style="display: flex; margin: 80px;">
-                <section>
-                    <picture style="float: right;">
-                        <img src="img/quemsomos.png" alt="">
-                    </picture>
+            <div>
+                <div id="quemsomos" style="display: flex; margin: 50px;">
                     <section>
-                        <h1 style="border-top: 1px black solid; border-bottom:1px black solid ; margin-top: 50px;">
-                            Quem somos
-                        </h1>
-                        <p>
-                            O escritório de
-                            advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca
-                            oferecer
-                            serviços
-                            jurídicos de excelência, pautados na integridade, competência e respeito.
-                            Nossos valores
-                            incluem
-                            eficiência,
-                            zelo, e um atendimento personalizado, visando à satisfação plena de nossos clientes.
-                        </p>
+                        <picture style="float: right;">
+                            <img src="img/quemsomos.png" alt="">
+                        </picture>
+                        <section style="padding-top: 20px; padding-right: 20px;">
+                            <h1 style="border-top: 1px black solid; border-bottom:1px black solid ; margin-top: 50px;">
+                                Quem somos
+                            </h1>
+                            <p>
+                                O escritório de
+                                advocacia Duarte e Santos Advocacia, localizado em Camboriú, busca
+                                oferecer
+                                serviços
+                                jurídicos de excelência, pautados na integridade, competência e respeito.
+                                Nossos valores
+                                incluem
+                                eficiência,
+                                zelo, e um atendimento personalizado, visando à satisfação plena de nossos clientes.
+                            </p>
+                        </section>
                     </section>
-                </section>
 
+                </div>
             </div>
-          </div>
-
-            <a
-                href="https://api.whatsapp.com/send/?phone=5547988038663&text=Ol%C3%A1%2C+preciso+falar+com+um+advogado%21&type=phone_number&app_absent=0">
-                <button id="entreEmContrato" type="button">Entre em contrato</button>
-            </a>
 
             <!-- feed de noticias
                 Acho que fica melhor trocar para Areas de atuação                
                 add -->
             <!-- areas do direito  -->
-            <h1>
-                Feed atualizado
+
+
+            <h1 id="fed" style="margin-left: 20px;">
+                
+                Areas de atuação
             </h1>
-            <article id="feed">
+            <article id="feed" style="padding: 20px; align-items: center;">
                 <h1>
                     Direito de Família
                 </h1>
@@ -246,6 +256,9 @@
                         <img id="plat" src="img/plat.png" alt="">
                         <img src="img/plat1.png" alt="">
                     </picture>
+                    <p id="equipe" style="text-align: center; margin-bottom: 20px;">
+                        Estamos prontos para melhor lhe atender!
+                    </p>
                     <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
                         <p style="text-align: center;">
                             Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
@@ -257,48 +270,54 @@
                     </picture>
                 </div>
                 </a>
-                <p id="equipe" style="text-align: center;">
-                    Estamos prontos para melhor lhe atender!
-                </p>
-                        <!-- funcionarios -->
+                <!-- funcionarios -->
 
                 <!-- Imagem do Francisco Duarte -->
-                <picture class="funcionarios02">
-                    <img src="img/francisco.jpg" alt="francisco">
-                </picture>
-                <label for="">
-                    <legend>
-                        <strong>Francisco Duarte De Souza Filho</strong> <br>
-                        <number>(47) 99623-7330</number> <br>
-                        <strong>OAB/SC</strong>
-                    </legend>
-                </label>
+                <div style="display: flex;">
+                    <picture class="funcionarios02">
+                        <img src="img/francisco.jpg" alt="francisco">
+                    </picture>
+                    <label for="">
+                        <legend>
+                            <strong>Francisco Duarte De Souza Filho</strong> <br>
+                            <number>(47) 99623-7330</number> <br>
+                            <strong>OAB/SC</strong>
+                        </legend>
+                    </label>
+                </div>
                 <!-- Imagem do Guilherme Henrrique -->
-                <picture class="funcionarios02">
-                    <img src="img/guilherme.jpg" alt="guilherme">
-                </picture>
-                <label for="">
-                    <legend>
-                        <strong>Guilherme Henrrique De Oliveira Santos</strong> <br>
-                        <number>(47) 98803-8663</number> <br>
-                        <strong>OAB/SP</strong>
-                    </legend>
-                </label>
+                <div style="display: flex;">
+                    <picture class="funcionarios02">
+                        <img src="img/guilherme.jpg" alt="guilherme">
+                    </picture>
+                    <label for="">
+                        <legend>
+                            <strong>Guilherme Henrrique De Oliveira Santos</strong> <br>
+                            <number>(47) 98803-8663</number> <br>
+                            <strong>OAB/SP</strong>
+                        </legend>
+                    </label>
+                </div>
             </section>
-            <p>
-                Nossos advogados especializados estão prontos para fornecer orientação jurídica
-                personalizada e
-                resolver
-                suas preocupações. Sua paz de espírito é nossa prioridade.
-            </p>
+            <div style="text-align: center;">
+                <p>
+                    Nossos advogados especializados estão prontos para fornecer orientação jurídica
+                    personalizada e
+                    resolver
+                    suas preocupações. Sua paz de espírito é nossa prioridade.
+                </p>
+                <p>
+                    Compartilhe seu caso conosco!
+                </p>
+            </div>
+
             <!-- iframe -->
             <div id="iframe" class="iframe">
-                <iframe  src="https://docs.google.com/forms/d/e/1FAIpQLScbAsKjgolgfDveD-o1rvTBDOe2IEWFttnUqvVRX4cADKkakQ/viewform?embedded=true" width="640" height="1500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLScbAsKjgolgfDveD-o1rvTBDOe2IEWFttnUqvVRX4cADKkakQ/viewform?embedded=true"
+                    width="640" height="1500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
             </div>
-           <p id="CSCC">
-                Compartilhe seu caso conosco!
-            </p>
-                    </div>
+        </div>
         <footer>
             <div style="padding: 10px;">
                 <div style="display: flex; justify-content: center;">
@@ -366,7 +385,7 @@
                         </a>
                     </label>
                 </div>
-                
+
                 <p style="border-top: 1px solid #606060;">
                     © 2023 Duarte Santos Advocacia Todos os direitos reservados
                 </p>

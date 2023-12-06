@@ -56,6 +56,7 @@ header {
     background-color: #262626;
     color: #BF6D24;
     text-align: center;
+    padding: 20px;
 }
 
 .interface {
@@ -193,16 +194,24 @@ section#vindo button {
     text-align: center;
 }
 .logozinhaWP{
-    display: flex;
+       display: flex;
+       justify-content: center;
     padding: 10px;
     background-color: #1C2559;
     border-radius: 25px;
     margin: 5px;
-    color: #A68A56;
 }
-.logozinhaWP img {
+.logozinhaWPflex{
+
+    max-width: 300px;
+}
+.logozinhaWP label{
+        color: #c06414;
+}
+.btn img {
     border-radius: 360px;
     width: 30px;
+    /* margin-right: 40px; */
 }
 
 
@@ -322,6 +331,7 @@ section {
 
 article#feed section {
     margin-top: 20px;
+    padding: 15px;
 }
 
 article#feed img {
@@ -357,4 +367,8 @@ img#plat1 {
 
 iframe {
     width: 100%;
+}
+.ooo{
+    margin-left: 10px;
+    margin-right: 10px;
 }
