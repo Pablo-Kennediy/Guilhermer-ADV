@@ -46,9 +46,9 @@
     <div class="interface">
         <a
             href="https://api.whatsapp.com/send/?phone=5547988038663&text=Ol%C3%A1%2C+preciso+falar+com+um+advogado%21&type=phone_number&app_absent=0">
-            <button id="entreEmContrato" type="button">Entre em contrato</button>
+            <button style="background-color: #262626 ; border-radius: 0px;" id="entreEmContrato" type="button">Entre em contrato</button>
         </a>
-        <p>
+        <p style="margin: 5px;">
             ligue para agendar sua consulta
         </p>
         <div id="numberInterface" style="display: flex; justify-content: center;">
@@ -78,7 +78,7 @@
         <!-- section 1 que só tem apresentação -->
         <div>
             <!-- uma linha de cada lado de uma logo aqui -->
-            <h2 style="margin: 40px 40px;">
+            <h2 style="margin: 40px 40px; text-align: center;">
                 <strong class="ww">Defendemos</strong> <strong class="ee">seus direitos</strong> <strong class="ww">com
                     paixão e precisão, transformando desafios</strong> <strong class="ee">jurídicos</strong> <strong
                     class="ww">em conquistas de</strong>
@@ -131,11 +131,8 @@
         Acho que fica melhor trocar para Areas de atuação                
         add -->
                 <!-- areas do direito  -->
-                <h1 id="fed" style="margin-left: 20px; font-size: large;">
-                    Areas de atuação
-                </h1>
                 <article id="feed" style="padding: 20px; align-items: center;">
-                    <h1>
+                    <h1 id="fed">
                         Direito de Família
                     </h1>
                     <img src="img/Família.jpeg" style="float: right;" alt="">
@@ -254,56 +251,37 @@
                         interesses e
                         assegurar relações contratuais sólidas e transparentes.
                     </p>
-                    <div>
-                        <picture style="display: flex;">
-                            <img src="img/plat1.png" alt="">
-                            <img id="plat" src="img/plat.png" alt="">
-                            <img src="img/plat1.png" alt="">
-                        </picture>
-                        <p id="equipe" style="text-align: center; margin-bottom: 20px;">
-                            Estamos prontos para melhor lhe atender!
-                        </p>
-                        <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
-                            <p style="text-align: center;">
-                                Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
-                            </p>
-                    </div>
-                    <div>
+
+                    <div style="margin-top: 50px;">
                         <picture>
                             <img id="maps" src="img/maps.png" alt="">
                         </picture>
                     </div>
                     </a>
+                    <div>
+                        <a href="https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7">
+                            <picture style="display: flex;">
+                                <img src="img/plat1.png" alt="">
+                                <img id="plat" src="img/plat.png" alt="">
+                                <img src="img/plat1.png" alt="">
+                            </picture>
+                            <p style="text-align: center;">
+                                Rua Roma, N° 192 - Sala 09 - Santa Regina, Camboriú-SC
+                            </p>
+                   
+                    </div>
                 </section>
-                <!-- funcionarios -->
-
-                <!-- Imagem do Francisco Duarte -->
-                <div id="ff" style="display: flex;">
-                    <picture class="funcionarios02">
-                    </picture>
-                    <label for="">
-                        <legend>
-                            <strong>Francisco Duarte De Souza Filho</strong> <br>
-                            <number>(47) 99623-7330</number> <br>
-                            <strong>OAB/SC sob 15.628</strong>
-                        </legend>
-                    </label>
-                </div>
-                <!-- Imagem do Guilherme Henrrique -->
-                <div style="display: flex;">
-                    <picture class="funcionarios02">
-                        <img src="img/guilherme.jpg" alt="guilherme">
-                    </picture>
-                    <label for="">
-                        <legend>
-                            <strong>Guilherme Henrrique De Oliveira Santos</strong> <br>
-                            <number>(47) 98803-8663</number> <br>
-                            <strong>OAB/SP sob nº 391.588, OAB/SC 68598</strong>
-                        </legend>
-                    </label>
-                </div>
-            </section>
-            <div style="text-align: center;">
+                           </section>
+            <p id="equipe" style="text-align: center; margin-bottom: 20px; margin-top: 20px;background-color: #262626; color: white; border-radius: 25px; padding: 10px; width: 100%; border-radius: 0px;">
+                Estamos prontos para melhor lhe atender!
+            </p>
+                           <!-- funcionarios -->
+                         <picture>
+                            <source media="(max-width: 500px )" srcset="img/funcionarios/telefone.png">
+                            <img src="img/funcionarios/pc.png" alt="">
+                    <!-- </source> -->
+                         </picture>
+            <div style="text-align: center; margin-top: 20px;">
                 <p>
                     Nossos advogados especializados estão prontos para fornecer orientação jurídica
                     personalizada e
@@ -332,9 +310,9 @@
                 <div style="font-size: small;">
                     <label style="margin: 5px;">
                         <h1>
-                          <a style="color: white;" href="#ff">
-                            Equipe
-                          </a>
+                            <a style="color: white;" href="#ff">
+                                Equipe
+                            </a>
                         </h1>
                         <p>
                             Dr. Francisco Duarte
@@ -362,9 +340,9 @@
                     </label>
                     <label style="margin: 5px;">
                         <h1>
-                           <a style="color: white;" href="#fed">
-                            Áreas de atuação
-                           </a>
+                            <a style="color: white;" href="#fed">
+                                Áreas de atuação
+                            </a>
                         </h1>
                         <p>
                             Cível
