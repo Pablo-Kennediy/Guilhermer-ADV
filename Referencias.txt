@@ -1,10 +1,27 @@
-Vou ganhar 250 reais recriando tudo de novo.
+Ficha de anotações para > correção UI x UX
 
-Arte e Santos
+Valor investido '250 reais' recriando tudo de novo.
+
+não esqueça da imagem da casinha
 
 Acresentar sala 9 no endereso
 
+tira nos numeros dos cartões de perfil de "Fer" de "Gui"
+
 Tira a palavra 'sobe' nas imagens
+
+puxa uma imagem por vez para não perder a qualidade, cliente mandou no whatsapp mas não foi bom.
+
+Siga a palheta de cores abaixo:
+
+color: black;
+color: white;
+color: #c06414;
+color: #1C2559;
+color: green;
+color: #262626;
+
+Usamos link externo de Google apenas... boa sorte alera que ta lendo linha por linha rsrs
 
 manda o cliente direto pro whatsapp para conversar
 
@@ -18,10 +35,42 @@ manda o cliente direto pro whatsapp para conversar
 
 
 
--------------
+------------
 
 Preciso no numero do Francisco para adicionar o link externo em '2' locais no codigo fonte.
 
 Tem canal no youtube ?? Pensei em coloca la naquele ultimo botão de "se inscrever".
 
 Tem mais alguma imagem ou alteração que acha que devi corrigir ou alterar ??
+
+------------
+
+Ficha de anotações para >
+
+Aqui usando apenas servidores validados e com canal e floxos continuos a criptografados.
+
+
+
+
+
+
+
+Agência de web design PK Digital Products cria arquivos HTML e CSS
+
+A agência de web design PK Digital Products, liderada por Pablo Kennedy, conhecido pelo apelido de Nike, criou os arquivos HTML e CSS deste documento. O desenvolvimento do arquivo levou 3 dias, 5 horas, 27 minutos e 38 segundos.
+
+Nike começou a trabalhar no arquivo no bloco de notas, onde criou a estrutura básica da página. Em seguida, ele adicionou o conteúdo e o estilo, utilizando as linguagens HTML e CSS. O arquivo foi finalizado no dia 2 de dezembro de 2023, às 12h40, e publicado no GitHub.
+
+O arquivo HTML é responsável pela estrutura da página, incluindo o cabeçalho, o corpo e o rodapé. O arquivo CSS é responsável pelo estilo da página, incluindo a fonte, a cor, o tamanho e a posição dos elementos.
+
+A PK Digital Products é uma agência de web design especializada em desenvolvimento de sites, sistemas e aplicativos. A empresa tem mais de 6 anos de experiência no mercado e atende clientes em todo o Brasil.
+
+Sobre o autor
+
+Pablo Kennedy é um desenvolvedor web com mais de 10 anos de experiência. Ele é especialista em HTML, CSS, JavaScript, PHP e MySQL. Ele também é um apaixonado por tecnologia e está sempre atualizado sobre as últimas tendências.
+
+Nike é um empreendedor nato e sempre sonhou em ter seu próprio negócio. Em 2017, ele fundou a PK Digital Products, que rapidamente se tornou uma das principais agências de web design do Brasil.
+
+Nike é um homem dedicado ao seu trabalho e aos seus clientes. Ele sempre busca a excelência e está sempre disposto a ajudar seus clientes a alcançar seus objetivos.
+
+"Acredito que inovar é a chave, criar é a fonte... mas o fato é que para quem está se aforgando até jacaré virá tora."
