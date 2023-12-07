@@ -49,8 +49,11 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    list-style: none;
     font-size: 20px;
+}
+article#feed ul img{
+    max-width: 50px;
+    border-radius: 25px;
 }
 .ooo{
     margin-left: 10px;
