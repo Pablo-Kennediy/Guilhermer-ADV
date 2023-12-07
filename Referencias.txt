@@ -1,4 +1,9 @@
-Ficha de anotações para > correção UI x UX
+
+Langauges 
+
+HTML - 73.01%
+CSS - 25.7%
+JAVASCRIPT - 1.2%
 
 2 HTML + 1 CSS + 1 JAVASCRIPT
 
@@ -13,6 +18,8 @@ audio - 0 som
 video - 1 MP4
 
 Valor investido '250 reais' recriando tudo de novo.
+
+Ficha de anotações para > correção UI x UX
 
 não esqueça da imagem da casinha
 
@@ -52,23 +59,52 @@ maps - https://maps.app.goo.gl/LiUjP9cbXUPYmU9J7
 
 ------------
 
+
+------------
+
+Ficha de anotações para > Programador
+
+Cria primeiro o Footer por que é mais delicado.
+
+Não use cores fora da palheta.
+
+Slide cabeçalho não esta certo.
+
+Sem alteração de fundo, siga a cor 'White'.
+
+Fonte não esta boa
+
+42% não é o bastante, mais responsividade ja.
+
+Preciso de 6 automações ainda não contidas neste modelo.
+
+Perdemos um teclado Flavia, preciso de 40 minutos.
+
+Slide em cabeçalho não esta certo gente, bora ver..
+
+Obrigada Nike <3
+
+Tem quantos arquivos de midia ? me explica melhor no whats.
+
+Não precisa de formulario mesmo não, ele confirmou redundancia mas vou encaixar um form... é pedido do cliente perdão galera mas poder deixar que eu faço sozinho aqui, BD é eyse nessa.
+
+Slide cabeçalho não esta certo, favor respaldo.
+
+Continua estranho por conta do serdidor GIT PAGES, só melhorar em servidor que presta né fio kk
+
+
 Preciso no numero do Francisco para adicionar o link externo em '2' locais no codigo fonte.
 
 Tem canal no youtube ?? Pensei em coloca la naquele ultimo botão de "se inscrever".
 
 Tem mais alguma imagem ou alteração que acha que devi corrigir ou alterar ??
 
-------------
-
-Ficha de anotações para >
-
-Aqui usando apenas servidores validados e com canal e floxos continuos a criptografados.
+nop, agr é cmg.
 
 
+ficha texto descrição padrão
 
-
-
-
+Aqui usando apenas servidores validados e com canal e fluxos continuos a criptografados.
 
 Agência de web design PK Digital Products cria arquivos HTML e CSS
 
@@ -89,3 +125,5 @@ Nike é um empreendedor nato e sempre sonhou em ter seu próprio negócio. Em 20
 Nike é um homem dedicado ao seu trabalho e aos seus clientes. Ele sempre busca a excelência e está sempre disposto a ajudar seus clientes a alcançar seus objetivos.
 
 "Acredito que inovar é a chave, criar é a fonte... mas o fato é que para quem está se aforgando até jacaré virá tora."
+
+pronto.

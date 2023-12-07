@@ -14,7 +14,6 @@
 
 video {
     box-shadow:  6px 6px 13px 0px rgb(0, 0, 0);
-    /* width: 100%; */
 }
 
 .video video {
@@ -115,26 +114,6 @@ p {
     font-size: small;
 }
 
-/* #subimagem {
-    background-color: rgba(0, 0, 0, 0);
-    height: 100%;
-    color: white;
-    padding: 20px;
-}
-#subimagem p{
-    text-align: center;
-} */
-
-/* .normal {
-    display: flex;
-    background-color: white;
-}
-
-.normal img {
-    max-width: 300px;
-    background-size: cover;
-}
-*/
 .imagem {
     display: flex;
     max-width: 900px;
@@ -164,42 +143,6 @@ picture#logoWhatsapp img {
     width: 35px;
 }
 
-/* section.imagem>p {
-    display: inline-block;
-    padding: 5px;
-    text-shadow: 1px 1px 0px black;
-}
-
-#img01 {
-    display: block;
-    background-image: url("img/sectionDireitoCivil.jpg");
-    background-position: right center;
-}
-
-#img02 {
-    display: block;
-    background-image: url("img/sectionFamília.jpg");
-}
-
-#img03 {
-    display: block;
-    background-image: url("img/sectionDireitoCriminal.jpg");
-}
-
-#img04 {
-    display: block;
-    background-image: url("img/sectionDireitoCível.jpg");
-}
-
-#img05 {
-    display: block;
-    background-image: url("img/sectionDireitoPrevidenciário.jpg");
-}
-
-#img06 {
-    display: block;
-    background-image: url("img/sectionDireitoDoConsumidor.png");
-} */
 body#bem-vindo {
     background-image: url("img/fdbemVindo.jpg");
     background-repeat: no-repeat;
@@ -260,19 +203,14 @@ section#vindo button {
     padding: 25px 25px;
 }
 
-.btn section {
-    /* margin: 200px; */
-}
 
 .btn img {
     margin: 10px;
     border-radius: 15px;
     height: 55px;
-    /* margin-right: 40px; */
 }
 
 button {
-    /* width: 100%; */
     border-radius: 25px;
     background-color: #1C2559;
     color: white;
