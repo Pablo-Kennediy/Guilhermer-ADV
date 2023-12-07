@@ -30,9 +30,9 @@ picture#quemsomos p {
     margin: 5px;
 }
 
-div {
+ div {
     display: block;
-}
+} 
 
 #divHead number {
     color: wheat;
@@ -48,7 +48,6 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 20px;
 }
 
 article#feed ul img {
@@ -63,25 +62,45 @@ li {
     margin-left: 10px;
     margin-right: 10px;
 }
+header button#entreEmContrato {
+    width: 200px;
+    float: right;
+}
+
+header picture#logoADV img {
+    max-width: 85px;
+    float: left;
+}
 
 header p {
     color: white;
 }
 
 header {
+    width: 100%;
     background-color: #262626;
     color: #BF6D24;
     text-align: center;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#janela {
+    width: 100%;
+    text-align: center;
+}
+#janela p {
+    margin-top: 20px;
 }
 
 .interface {
     position: relative;
+    width: 100%;
     align-items: center;
-
 }
 
 footer {
+    width: 100%;
     position: relative;
     background-color: #262626;
     color: white;
@@ -127,17 +146,22 @@ p {
     max-width: 500px;
 }
 
-picture#logoWhatsapp {
+#logoWhatsapp {
     margin: auto;
 }
 
+picture#logoWhatsapp number{
+    color: white;
+    margin: 10px;
+    font-size: smaller;
+
+}
 #numberInterface {
-    margin: 20px;
     color: green;
 }
 
 picture#logoWhatsapp img {
-    width: 50px;
+    width: 35px;
 }
 
 /* section.imagem>p {
@@ -190,10 +214,6 @@ body#bem-vindo {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-.box1 {
-    /* max-width: 700px; */
 }
 
 .box2 {
@@ -256,16 +276,6 @@ button {
     border-radius: 25px;
     background-color: #1C2559;
     color: white;
-}
-
-header button#entreEmContrato {
-    width: 200px;
-    float: right;
-}
-
-header picture#logoADV img {
-    max-width: 85px;
-    float: left;
 }
 
 footer picture#logoADVV img {
@@ -351,12 +361,10 @@ section {
     align-items: center;
     background-size: cover;
 }
-
-article#feed section {
-    margin-top: 20px;
-    padding: 15px;
+article{
+    max-width: 900px;
+    margin: auto;
 }
-
 article#feed img {
     max-width: 80px;
 }
