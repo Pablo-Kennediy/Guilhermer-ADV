@@ -3,15 +3,18 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.ww{
+
+.ww {
     color: #1C2559;
 }
-.ee{
+
+.ee {
     color: #c06414;
 }
+
 video {
-    box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0);
-    width: 100%;
+    box-shadow:  6px 6px 13px 0px rgb(0, 0, 0);
+    /* width: 100%; */
 }
 
 .video video {
@@ -51,21 +54,26 @@ ul {
     text-align: center;
     font-size: 20px;
 }
-article#feed ul img{
-    max-width: 50px;
+
+article#feed ul img {
+    max-width: 35px;
     border-radius: 25px;
 }
-.ooo{
+
+.ooo {
     margin-left: 10px;
     margin-right: 10px;
     font-size: smaller;
 }
+
 li {
     display: inline-block;
 }
-header p{
+
+header p {
     color: white;
 }
+
 header {
     background-color: #262626;
     color: #BF6D24;
@@ -76,6 +84,7 @@ header {
 .interface {
     position: relative;
     align-items: center;
+
 }
 
 footer {
@@ -119,9 +128,11 @@ p {
     background-color: #c0641425;
     border-radius: 25px;
 }
-.imagem p{
+
+.imagem p {
     max-width: 500px;
 }
+
 picture#logoWhatsapp {
     margin: auto;
 }
@@ -213,35 +224,41 @@ section#vindo button {
 .boxbtn {
     text-align: center;
 }
-.logozinhaWP{
-       display: flex;
-       justify-content: center;
+
+.logozinhaWP {
+    display: flex;
+    justify-content: center;
     padding: 10px;
     background-color: #1C2559;
     border-radius: 25px;
     margin: 5px;
 }
-.logozinhaWPflex{
 
+.logozinhaWPflex {
     max-width: 100px;
 }
-.logozinhaWP label{
-   color: #c06414;
+
+.logozinhaWP label {
+    color: #c06414;
 }
-.btn{
-padding: 25px 25px;
+
+.btn {
+    padding: 25px 25px;
 }
-.btn section{
+
+.btn section {
     /* margin: 200px; */
 }
+
 .btn img {
     margin: 10px;
     border-radius: 15px;
     height: 55px;
     /* margin-right: 40px; */
 }
+
 button {
-    width: 100%;
+    /* width: 100%; */
     border-radius: 25px;
     background-color: #1C2559;
     color: white;
@@ -387,7 +404,7 @@ img#plat1 {
 
 .iframe {
     display: block;
-    padding: 10px;
+    width: 100%;
 }
 
 iframe {
