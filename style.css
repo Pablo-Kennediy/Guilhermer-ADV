@@ -26,10 +26,6 @@ video {
     border-radius: 15px;
 }
 
-#quemsomos section {
-    /* font-size: x-large; */
-}
-
 picture#quemsomos p {
     margin: 5px;
 }
@@ -272,12 +268,12 @@ header picture#logoADV img {
     float: left;
 }
 
-aside {
-    padding: 20px;
+footer picture#logoADV img {
+width: 100%;
 }
 
-picture#cabecalho img {
-    max-width: 500px;
+aside {
+    padding: 20px;
 }
 
 img {
@@ -292,21 +288,13 @@ img {
     width: 100%;
 }
 
-div#funcionarios picture {
-    width: 80px;
-}
-
 legend {
     margin: 10px;
     background-color: #091740;
     border: 7px black solid;
     border-radius: 25px;
     color: white;
-
 }
-
-
-
 
 .funcionarios3 {
     margin-top: 20px;
@@ -339,11 +327,6 @@ input {
     align-items: center;
     width: 100%;
     margin: 10px;
-}
-
-footer picture#logoADV img {
-    max-width: 300px;
-    background-color: #262626;
 }
 
 .colunaFooter {
