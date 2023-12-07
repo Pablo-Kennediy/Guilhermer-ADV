@@ -60,14 +60,12 @@ article#feed ul img {
     border-radius: 25px;
 }
 
+li {
+    display: inline-block;
+}
 .ooo {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: smaller;
-}
-
-li {
-    display: inline-block;
 }
 
 header p {
