@@ -338,3 +338,12 @@ iframe {
     width: 100%;
     height: 100vh;
 }
+#absolutWhatsapp {
+    position: fixed;
+    max-width: 85px;
+    margin-top: 85vh;
+
+}
+#absolutWhatsapp img{
+    display: block;
+}
