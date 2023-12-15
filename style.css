@@ -183,6 +183,16 @@ section#vindo button {
 .boxbtn {
     text-align: center;
 }
+.btn {
+    padding: 25px 25px;
+}
+
+
+.btn img {
+    margin: 10px;
+    border-radius: 15px;
+    max-height: 55px;
+}
 
 .logozinhaWP {
     display: flex;
@@ -199,17 +209,6 @@ section#vindo button {
 
 .logozinhaWP label {
     color: #c06414;
-}
-
-.btn {
-    padding: 25px 25px;
-}
-
-
-.btn img {
-    margin: 10px;
-    border-radius: 15px;
-    height: 55px;
 }
 
 button {
