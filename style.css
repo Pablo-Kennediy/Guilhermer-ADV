@@ -50,16 +50,14 @@ ul {
 }
 #absolutWhatsapp {
     max-width: 85px;
-    padding-top: 50vh;
+    padding-top: 55vh;
     float: right;
     position: fixed;
 }
 
 #absolutWhatsapp img{
-  
     display: block;
     margin: auto;
-    margin-right: 15px;
 }
 
 
