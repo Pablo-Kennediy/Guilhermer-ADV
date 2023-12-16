@@ -13,7 +13,7 @@
 }
 
 video {
-    box-shadow:  6px 6px 13px 0px rgb(0, 0, 0);
+    box-shadow: 6px 6px 13px 0px rgb(0, 0, 0);
 }
 
 .video video {
@@ -29,9 +29,9 @@ picture#quemsomos p {
     margin: 5px;
 }
 
- div {
+div {
     display: block;
-} 
+}
 
 #divHead number {
     color: wheat;
@@ -48,18 +48,15 @@ ul {
     justify-content: center;
     text-align: center;
 }
+
 #absolutWhatsapp {
     max-width: 85px;
-    padding-top: 55vh;
+    margin: auto;
+    padding-top: 80vh;
+    padding-left: 75%;
     float: right;
     position: fixed;
 }
-
-#absolutWhatsapp img{
-    display: block;
-    margin: auto;
-}
-
 
 article#feed ul img {
     max-width: 20px;
@@ -68,20 +65,28 @@ article#feed ul img {
 
 li {
     display: inline-block;
+    padding: 10px;
 }
+
 .ooo {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: auto;
 }
+
 header button#entreEmContrato {
     width: 200px;
     float: right;
 }
-
+header picture#logoADV{
+    justify-content: baseline;
+    align-items: baseline;
+}
 header picture#logoADV img {
-    max-width: 120px;
-    float: left;
-    padding: 25px;
+    max-width: 200px;
+    margin: auto;
+}
+
+footer picture#logoADV img {
+    width: 200px;
 }
 
 header p {
@@ -93,14 +98,15 @@ header {
     background-color: #262626;
     color: #BF6D24;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #janela {
     width: 100%;
     text-align: center;
 }
+
 #janela p {
     margin-top: 20px;
 }
@@ -121,7 +127,8 @@ footer {
     align-items: center;
 }
 
-footer h1,p {
+footer h1,
+p {
     font-size: small;
 }
 
@@ -141,12 +148,13 @@ footer h1,p {
     margin: auto;
 }
 
-picture#logoWhatsapp number{
+picture#logoWhatsapp number {
     color: white;
     margin: 10px;
     font-size: smaller;
 
 }
+
 #numberInterface {
     color: green;
 }
@@ -193,6 +201,7 @@ section#vindo button {
 .boxbtn {
     text-align: center;
 }
+
 .btn {
     padding: 25px 25px;
 }
@@ -225,10 +234,6 @@ button {
     border-radius: 25px;
     background-color: #1C2559;
     color: white;
-}
-
-footer picture#logoADV img {
-width: 200px;
 }
 
 aside {
@@ -310,10 +315,12 @@ section {
     align-items: center;
     background-size: cover;
 }
-article{
+
+article {
     max-width: 900px;
     margin: auto;
 }
+
 article#feed img {
     max-width: 80px;
 }
