@@ -87,13 +87,6 @@ li {
     margin: auto;
 }
 
-header {
-    width: 100%;
-    background-color: #262626;
-    color: #BF6D24;
-    text-align: center;
-    padding: 15px;
-}
 header button#entreEmContrato {
     width: 200px;
     float: right;
@@ -123,10 +116,14 @@ header p {
     margin: auto;
     align-items: center;
 }
+header {
+
+    background-color: #262626;
+    text-align: center;
+    padding: 15px;
+}
 
 footer {
-    width: 100%;
-    position: relative;
     background-color: #262626;
     color: white;
     padding: 5px;
@@ -135,8 +132,7 @@ footer {
     align-items: center;
 }
 
-footer h1,
-p {
+footer h1,p {
     font-size: small;
 }
 
