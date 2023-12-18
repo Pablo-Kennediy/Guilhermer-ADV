@@ -59,7 +59,6 @@ a {
 }
 
 ul {
-    background-color: white;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -88,6 +87,17 @@ li {
     margin: auto;
 }
 
+footer picture#logoADV img {
+    width: 200px;
+}
+
+header {
+    width: 100%;
+    background-color: #262626;
+    color: #BF6D24;
+    text-align: center;
+    padding: 15px;
+}
 header button#entreEmContrato {
     width: 200px;
     float: right;
@@ -102,27 +112,12 @@ header picture#logoADV img {
     max-width: 200px;
     padding: 15px;
 }
-
-footer picture#logoADV img {
-    width: 200px;
-}
-
 header p {
     color: white;
 }
 
-header {
-    width: 100%;
-    background-color: #262626;
-    color: #BF6D24;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 #janela {
-    width: 100%;
-    text-align: center;
+
 }
 
 #janela p {
@@ -130,7 +125,8 @@ header {
 }
 
 .interface {
-    width: 100%;
+    max-width: 1100px;
+    margin: auto;
     align-items: center;
 }
 
@@ -164,8 +160,6 @@ p {
 #numberInterface {
     color: green;
 }
-
-
 
 body#bem-vindo {
     background-image: url("img/fdbemVindo.jpg");
@@ -293,7 +287,6 @@ input {
     display: block;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin: 10px;
 }
 
@@ -303,7 +296,7 @@ input {
 }
 
 .colunaFooter section {
-    width: 100%;
+    /* width: 100%; */
 }
 
 div#assine {
@@ -317,7 +310,7 @@ div#subFooter {
 section {
     justify-content: center;
     align-items: center;
-    background-size: cover;
+   
 }
 
 article {
