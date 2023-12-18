@@ -87,10 +87,6 @@ li {
     margin: auto;
 }
 
-footer picture#logoADV img {
-    width: 200px;
-}
-
 header {
     width: 100%;
     background-color: #262626;
@@ -109,15 +105,13 @@ header picture#logoADV {
 }
 
 header picture#logoADV img {
-    max-width: 200px;
-    padding: 15px;
+    max-width: 400px;
 }
+footer picture img {
+    max-width: 400px;
+ }
 header p {
     color: white;
-}
-
-#janela {
-
 }
 
 #janela p {
