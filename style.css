@@ -88,15 +88,6 @@ header button#entreEmContrato {
     float: right;
 }
 
-header picture#logoADV {
-    justify-content: baseline;
-    align-items: baseline;
-}
-
-header picture#logoADV img {
-    max-width: 400px;
-}
-
 footer picture img {
     max-width: 400px;
 }
@@ -121,7 +112,9 @@ header {
     text-align: center;
     padding: 15px;
 }
-
+#logoADVV{
+    max-width: 400px;
+}
 footer {
     background-color: #262626;
     color: white;
