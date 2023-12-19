@@ -45,12 +45,7 @@ picture#logoWhatsapp number {
 
 picture#logoWhatsapp img {
     width: 35px;
-}
-
-#logoWhatsapp {
-    display: flex;
-    justify-content: end;
-    margin: auto;
+    float: right;
 }
 
 a {
