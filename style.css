@@ -63,13 +63,15 @@ ul {
     justify-content: center;
     text-align: center;
 }
-
+#absolutWhatsapp img{
+    float: right;
+}
 #absolutWhatsapp {
     max-width: 85px;
-    margin: auto;
+
     padding-top: 80vh;
-    padding-left: 75%;
-    float: right;
+    padding-left: 85%;
+    
     position: fixed;
 }
 
