@@ -63,14 +63,12 @@ ul {
     justify-content: center;
     text-align: center;
 }
-#absolutWhatsapp img{
+
+#absolutWhatsapp img {
     max-width: 85px;
     position: fixed;
     left: 80%;
     padding-top: 80vh;
-}
-#absolutWhatsapp {
-    
 }
 
 article#feed ul img {
@@ -100,9 +98,11 @@ header picture#logoADV {
 header picture#logoADV img {
     max-width: 500px;
 }
+
 footer picture img {
     max-width: 400px;
- }
+}
+
 header p {
     color: white;
 }
@@ -116,6 +116,7 @@ header p {
     margin: auto;
     align-items: center;
 }
+
 header {
 
     background-color: #262626;
@@ -132,7 +133,8 @@ footer {
     align-items: center;
 }
 
-footer h1,p {
+footer h1,
+p {
     font-size: small;
 }
 
@@ -300,7 +302,7 @@ div#subFooter {
 section {
     justify-content: center;
     align-items: center;
-   
+
 }
 
 article {
@@ -342,10 +344,12 @@ iframe {
     width: 100%;
     height: 100vh;
 }
+
 picture#maps {
     padding: 25px;
 }
-article#subFeed h3{
+
+article#subFeed h3 {
     margin-top: 25px;
     margin-left: 25px;
     margin-bottom: 15px;
