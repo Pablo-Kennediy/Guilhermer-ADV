@@ -64,15 +64,13 @@ ul {
     text-align: center;
 }
 #absolutWhatsapp img{
-    float: right;
+    max-width: 85px;
+    position: fixed;
+    left: 80%;
+    padding-top: 80vh;
 }
 #absolutWhatsapp {
-    max-width: 85px;
-
-    padding-top: 80vh;
-    padding-left: 85%;
     
-    position: fixed;
 }
 
 article#feed ul img {
@@ -343,4 +341,12 @@ img#plat1 {
 iframe {
     width: 100%;
     height: 100vh;
+}
+picture#maps {
+    padding: 25px;
+}
+article#subFeed h3{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 15px;
 }
