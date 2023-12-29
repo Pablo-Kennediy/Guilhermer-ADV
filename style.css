@@ -67,8 +67,9 @@ ul {
 #absolutWhatsapp img {
     max-width: 85px;
     position: fixed;
-    left: 80%;
-    padding-top: 80vh;
+    right: 0;
+    bottom: 0;
+    margin: 15px;  
 }
 
 article#feed ul img {
