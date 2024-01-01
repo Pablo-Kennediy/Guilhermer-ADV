@@ -303,7 +303,6 @@ div#subFooter {
 section {
     justify-content: center;
     align-items: center;
-
 }
 
 article {
@@ -357,9 +356,9 @@ article#subFeed h3 {
 }
 #topp img {
     position: fixed;
-    max-width: 120px;
+    max-width: 65px;
     bottom: 0;
 }
-#topp{
-   
+h1, p {
+margin: 10px;
 }
